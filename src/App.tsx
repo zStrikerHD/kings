@@ -36,5 +36,5 @@ export function App() {
     return () => context.revert()
   }, [])
 
-  return <div className="site-shell"><Header scrolled={scrolled} /><main><Hero /><AcademySection /><PlansSection /><TrustSection /><HoursSection status={status} /><ContactSection /><LocationSection /></main><Footer /></div>
+  return <div className="site-shell"><Header scrolled={scrolled} /><main><Hero isOpen={status.open} /><AcademySection /><PlansSection /><TrustSection /><HoursSection status={status} /><ContactSection /><LocationSection /></main><Footer /></div>
 }
