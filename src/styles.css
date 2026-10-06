@@ -10,6 +10,7 @@ button { font: inherit; }
 .site-header { height: 74px; width: 100%; padding: 0 clamp(22px, 5vw, 76px); display: flex; align-items: center; justify-content: space-between; position: fixed; z-index: 20; transition: background .3s ease, border-color .3s ease; border-bottom: 1px solid transparent; }
 .site-header.is-scrolled { background: rgba(4,4,6,.92); backdrop-filter: blur(10px); border-color: var(--line); }
 .brand, .footer-brand { display: flex; align-items: center; gap: 10px; font-family: Anton, sans-serif; letter-spacing: .06em; }
+.header-logo { width: 58px; height: 58px; display: block; object-fit: contain; }
 .brand-mark { width: 30px; height: 30px; display: grid; place-items: center; background: var(--red); font-size: 22px; line-height: 1; transform: skew(-9deg); }
 .brand-name { font-size: 25px; line-height: 1; }
 .brand-name span { color: var(--red); }
