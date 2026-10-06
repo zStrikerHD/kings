@@ -1,0 +1,5 @@
+import { ArrowUpRight, Star } from 'lucide-react'
+
+export function TrustSection() {
+  return <section id="avaliacoes" className="reviews-section"><div className="section-watermark outline-word">KING’S</div><img className="section-logo-mark" src="/logo-kings.png" alt="" aria-hidden="true" /><div className="review-mark">“</div><div className="section-kicker">03 / QUEM TREINA, SABE</div><div className="review-content"><h2>5 ESTRELAS.<br /><span>E NÃO FOI A GENTE<br />QUE DISSE.</span></h2><div className="review-score"><div className="stars">{Array.from({ length: 5 }, (_, i) => <Star key={i} fill="currentColor" size={19} />)}</div><strong>5,0 <small>/ 5</small></strong><p>34 avaliações no Google</p><a className="text-link light" href="https://www.google.com/maps/search/Academia+King%27s+Bariri" target="_blank" rel="noreferrer">VER AVALIAÇÕES <ArrowUpRight size={16} /></a></div></div><div className="review-placeholder"><span>DEPOIMENTOS REAIS EM BREVE</span><span className="review-line" /></div></section>
+}
