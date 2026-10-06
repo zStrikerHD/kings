@@ -25,7 +25,7 @@ button { font: inherit; }
 .hero-overlay { position: absolute; inset: 0; z-index: -2; background: linear-gradient(90deg, rgba(4,4,6,.98) 0%, rgba(4,4,6,.72) 46%, rgba(4,4,6,.48) 100%), linear-gradient(0deg, rgba(4,4,6,.78), transparent 45%); }
 .hero-noise { position: absolute; inset: 0; opacity: .05; z-index: -1; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.4'/%3E%3C/svg%3E"); }
 .hero-content { width: min(940px, 100%); padding: 130px clamp(22px, 9vw, 145px) 95px; }
-.eyebrow, .section-kicker { color: var(--red); display: flex; align-items: center; gap: 10px; }
+.eyebrow, .section-kicker { color: var(--red); display: flex; align-items: center; gap: 10px; }.eyebrow.is-open { color: #62b957; }
 .red-dot { background: var(--red); width: 7px; height: 7px; border-radius: 50%; display: inline-block; }.red-dot.is-open { background: #62b957; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { font-family: Anton, sans-serif; font-weight: 400; letter-spacing: -.025em; }
